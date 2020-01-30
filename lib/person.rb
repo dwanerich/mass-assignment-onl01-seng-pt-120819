@@ -5,7 +5,7 @@ class Person
   :pant_width
 
     def initialize(hash)
-    attributes.each {|key, value| self.send(("#{key}="), value)}
-  end
+      attributes.each {|key, value| self.send(("#{key}="), value)}
+    end
 
 end
